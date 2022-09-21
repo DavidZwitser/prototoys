@@ -1,3 +1,5 @@
+# DIT IS NU VAN SETUP
+
 # ✨ Drag-and-Drop Coding Environment Boilerplate
 
 This is intended to be a repository that makes it simple to play with and deploy a GUI based on Scratch-3.0 components! It may be handy for:
@@ -25,6 +27,10 @@ Requirements, your java version should be 8 or higher. Check `java -version`.
 git clone git@github.com:mitmedialab/prg-extension-boilerplate.git
 # Cloning the full history (300mb) takes about 20 seconds on fast internet. Include -–depth 1 for a 4 second checkout
 npx lerna bootstrap --force-local
+
+(Note ) op mijn laptop (Macbook met arm based chip) moet ik hem zo draaien:
+npx lerna bootstrap --force-local -- --legacy-peer-deps
+
 # This will symlink the packages together to allow for seamless local development, and installs dependencies for each package
 # Takes about 1.5 minutes
 cd packages/scratch-gui
